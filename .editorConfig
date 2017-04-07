@@ -1,4 +1,4 @@
-# .editorConfig File for jQuery HW
+# .editorConfig File for Resume Project
 root = true
 [*]
 indent_style = space
