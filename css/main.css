@@ -28,16 +28,26 @@ body {
 
 #container {
     margin: auto;
+    max-width: 1000px;
 }
 
 section {
-    margin: 2rem;
     padding: 2rem;
     background-color: #ffffff;
     -webkit-box-shadow: 0 15px 10px 10px #4d4d4d;
     box-shadow: 0 15px 10px 10px #4d4d4d;
     display: inline-block;
     min-width: 300px;
+}
+
+#header {
+    width: 100%;
+    margin-top: 2rem;
+}
+
+header {
+    margin: auto;
+    text-align: center;
 }
 
 h1 {
@@ -59,15 +69,6 @@ h3,
 p {
     color: #585858;
     font-family: 'roboto', sans-serif;
-}
-
-#header {
-    width: 100vw;
-}
-
-header {
-    margin: auto;
-    text-align: center;
 }
 
 #contact a {
