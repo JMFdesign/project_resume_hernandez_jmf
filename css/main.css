@@ -1,3 +1,5 @@
+/* -- General Formatting -- */
+
 html {
     box-sizing: border-box;
 }
@@ -40,17 +42,6 @@ section {
     min-width: 300px;
 }
 
-#header,
-#buzz {
-    width: 100%;
-    margin-top: 2rem;
-}
-
-header {
-    margin: auto;
-    text-align: center;
-}
-
 h1 {
     font-size: 3rem;
     line-height: 0.75;
@@ -66,6 +57,13 @@ h3,
 p {
     color: #585858;
     font-family: 'roboto', sans-serif;
+}
+
+/* -- Header Formatting -- */
+
+header {
+    margin: auto;
+    text-align: center;
 }
 
 #contact a {
@@ -91,6 +89,12 @@ p {
     padding: 0.5rem;
     margin: 0.5rem auto;
     max-width: 400px;
+}
+
+#header,
+#buzz {
+    width: 100%;
+    margin-top: 2rem;
 }
 
 /* -- Buzz Word Section -- */
