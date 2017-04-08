@@ -172,14 +172,25 @@ article p,
     padding-left: 1rem;
 }
 
-/*#edu,
-#skills {
-    width: 45%;
-}*/
-
 /* -- Skills Section -- */
 
 #skills {
     margin-left: 2rem;
     max-width: 350px;
+}
+
+#skills_ctr {
+    width: 100%;
+    margin: auto;
+}
+
+#skills_ctr p {
+    background-color: #c8c7c7;
+    padding: 0.5rem;
+    color: #096323;
+    text-align: center;
+    font-size: 0.75rem;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border-radius: 10px 10px 10px 10px;
+    display: inline-block;
 }
