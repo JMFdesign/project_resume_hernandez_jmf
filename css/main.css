@@ -42,7 +42,6 @@ section {
     background-color: #ffffff;
     -webkit-box-shadow: 0 0.75rem 1rem 1rem hsla(0, 0%, 6%, 0.5);
     box-shadow: 0 0.75rem 1rem 1rem hsla(0, 0%, 6%, 0.5);
-    display: inline-block;
     min-width: 300px;
 }
 
@@ -152,10 +151,6 @@ header {
 
 /* -- Education and Employment Sections -- */
 
-#edu {
-    min-width: 600px;
-}
-
 article h3,
 article p,
 .active_dates,
@@ -233,3 +228,28 @@ article p,
     margin-left: 75%;
     width: 30%;
 }
+
+/* -- Media Queries --
+
+@media (min-width: 320px) {
+    section,
+    #header,
+    #buzz,
+    #edu,
+    #skills,
+    #charity,
+    #emp {
+        width: 100%;
+        display: block;
+    }
+}
+
+@media (min-width: 768px) {
+    #header,
+    #buzz,
+    #charity,
+    #emp {
+        width: 100%;
+    }
+}
+*/
