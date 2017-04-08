@@ -26,6 +26,10 @@ body {
     height: auto;
 }
 
+#container {
+    margin: auto;
+}
+
 section {
     margin: 2rem;
     padding: 2rem;
