@@ -57,3 +57,12 @@ p {
     color: #585858;
     font-family: 'roboto', sans-serif;
 }
+
+#header {
+    width: 100vw;
+}
+
+header {
+    margin: auto;
+    text-align: center;
+}
