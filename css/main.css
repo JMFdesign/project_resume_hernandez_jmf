@@ -231,9 +231,13 @@ article p,
     width: 30%;
 }
 
+.color {
+    filter: grayscale(0%);
+}
+
 /* -- Media Queries -- */
 
-@media (min-width: 320px) {
+@media (min-width: 400px) {
     section,
     #header,
     #buzz,
@@ -243,6 +247,10 @@ article p,
     #emp {
         width: 100%;
         display: block;
+    }
+
+    #profile_pic {
+        filter: grayscale(100%);
     }
 }
 
