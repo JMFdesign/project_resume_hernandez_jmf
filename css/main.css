@@ -1,0 +1,19 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+@font-face {
+    font-family: 'bebas';
+    src: url('fonts/bebas.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'roboto';
+    src: url('fonts/roboto.ttf') format('truetype');
+}
