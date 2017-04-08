@@ -54,6 +54,7 @@ h2 {
 }
 
 h2 {
+    font-size: 2rem;
     border-bottom: 0.25rem solid #c8c7c7;
     padding-bottom: 0.25rem;
 }
@@ -143,4 +144,25 @@ header {
     font-family: 'bebas', sans-serif;
     font-size: 1.25rem;
     vertical-align: middle;
+}
+
+/* -- Education and Employment Sections -- */
+
+article h3,
+article p,
+.active_dates,
+.description {
+    display: inline-block;
+}
+
+.active_dates p {
+    color: #00952a;
+}
+
+.active_dates {
+    width: 150px;
+}
+
+.description {
+    padding-left: 1rem;
 }
