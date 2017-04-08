@@ -209,8 +209,37 @@ article p,
     width: 30%;
 }
 
+#solo:hover {
+    width: 30%;
+    content: url('../img/singer_hvr.png')
+}
+
+#rescue:hover {
+    width: 30%;
+    content: url('../img/rescue_photographer_hvr.png')
+}
+
+#speak:hover {
+    width: 30%;
+    content: url('../img/public_speaker_hvr.png')
+}
+
 /* -- Employment Section -- */
 
 #emp .description p {
     max-width: 600px;
+}
+
+#emp {
+    padding-bottom: 10rem;
+}
+
+/* -- Profile Pic -- */
+
+#profile_pic {
+    margin-top: -10rem;
+    margin-right: auto;
+    margin-left: auto;
+    width: 30%;
+
 }
