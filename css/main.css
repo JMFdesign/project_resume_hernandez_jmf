@@ -265,24 +265,27 @@ article p,
     #edu,
     #skills {
         width: 45%;
-      display: inline-block;
-  }
+        display: inline-block;
+    }
 
-  #skills {
-      margin-left: 5rem;
-      vertical-align: top;
-      font-size: 2rem;
-  }
+    #skills {
+        margin-left: 5rem;
+        vertical-align: top;
+        font-size: 2rem;
+    }
 }
 
 @media (min-width: 1224px) {
     #header,
-    #buzz {
+    #buzz,
+    #edu,
+    #skills {
         width: 48%;
         display: inline-block;
     }
 
-    #buzz {
+    #buzz,
+    #skills {
         margin-left: 2rem;
         vertical-align: top;
     }
