@@ -194,3 +194,9 @@ article p,
     border-radius: 10px 10px 10px 10px;
     display: inline-block;
 }
+
+/* -- Employment Section -- */
+
+#emp .description p {
+    max-width: 600px;
+}
