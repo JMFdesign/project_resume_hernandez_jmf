@@ -107,3 +107,40 @@ header {
 #hidden_title {
     display: none;
 }
+
+#buzz_words {
+    margin: auto;
+    width: 50%;
+}
+
+.buzz_lg {
+    color: #00952a;
+    font-family: 'bebas', sans-serif;
+    font-size: 2rem;
+    display: inline-block;
+}
+
+.buzz_sm {
+    color: #585858;
+    font-family: 'bebas', sans-serif;
+    font-size: 1.25rem;
+    display: inline-block;
+}
+
+.buzz_sm:first-of-type,
+.buzz_lg:last-of-type {
+    text-align: right;
+}
+
+.buzz_med {
+    color: #096323;
+    font-family: 'bebas', sans-serif;
+    font-size: 2rem;
+    display: block;
+}
+
+.buzz_tiny {
+    font-family: 'bebas', sans-serif;
+    font-size: 1.25rem;
+    vertical-align: middle;
+}
