@@ -2,6 +2,7 @@
 
 html {
     box-sizing: border-box;
+    width: 100%;
 }
 
 *,
@@ -25,14 +26,13 @@ body {
     background-image: url('../img/striped_background.jpg');
     background-repeat: no-repeat;
     background-position: fixed;
-    min-width: 100vw;
-    min-height: 100vh;
-    height: auto;
+    width: 100%;
 }
 
 #container {
     margin: auto;
-    max-width: 1000px;
+    max-width: 1200px;
+    width: 90%;
     position: relative;
 }
 
@@ -211,17 +211,17 @@ article p,
 
 #solo:hover {
     width: 30%;
-    content: url('../img/singer_hvr.png')
+    content: url('../img/singer_hvr.png');
 }
 
 #rescue:hover {
     width: 30%;
-    content: url('../img/rescue_photographer_hvr.png')
+    content: url('../img/rescue_photographer_hvr.png');
 }
 
 #speak:hover {
     width: 30%;
-    content: url('../img/public_speaker_hvr.png')
+    content: url('../img/public_speaker_hvr.png');
 }
 
 /* -- Employment Section -- */
@@ -232,13 +232,13 @@ article p,
 
 #emp {
     padding-bottom: 10rem;
+    width: 100%;
 }
 
 /* -- Profile Pic -- */
 
 #profile_pic {
     margin-top: -10rem;
-    margin-left: 60%;
+    margin-left: 75%;
     width: 30%;
-
 }
