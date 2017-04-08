@@ -13,8 +13,10 @@
   * [Only allow hover jQuery event to fire once](http://stackoverflow.com/questions/5023472/jquery-hover-once)
 
   * [Lettering jQuery Plugin](https://github.com/davatron5000/Lettering.js)
+    * I used this plugin on all of the h2s, with the exception of the one for #charity to create a gradient effect on the lettering.
 
   * [ToolTip jQuery Plugin](http://iamceege.github.io/tooltipster/)
+    * Instead of using the ToolTip plugin on an image (I have at least one hover effect on each image as it is), I used it as a way to include an "Easter Egg" for my fellow Gators in the heading of the "Education" section.
 
 ## Deductions
 
