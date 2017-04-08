@@ -17,3 +17,8 @@ html {
     font-family: 'roboto';
     src: url('fonts/roboto.ttf') format('truetype');
 }
+
+body {
+    background-color: #333333;
+    background-image: url('../img/striped_background.jpg');
+}
