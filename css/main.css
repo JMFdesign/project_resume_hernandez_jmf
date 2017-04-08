@@ -33,3 +33,23 @@ section {
     -webkit-box-shadow: 0 15px 10px 10px #4d4d4d;
     box-shadow: 0 15px 10px 10px #4d4d4d;
 }
+
+h1 {
+    font-size: 3rem;
+    line-height: 0.75;
+}
+
+h1,
+h2 {
+    color: #95008c;
+    font-family: 'bebas', sans-serif;
+}
+
+#hidden_title {
+    display: none;
+}
+
+h3 {
+    color: #585858;
+    font-family: 'roboto', sans-serif;
+}
