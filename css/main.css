@@ -21,4 +21,7 @@ html {
 body {
     background-color: #333333;
     background-image: url('../img/striped_background.jpg');
+    min-width: 100vw;
+    min-height: 100vh;
+    height: auto;
 }
