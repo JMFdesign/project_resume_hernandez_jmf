@@ -34,6 +34,7 @@ body {
 }
 
 section {
+    margin-top: 2rem;
     padding: 2rem;
     background-color: #ffffff;
     -webkit-box-shadow: 0 15px 10px 10px #4d4d4d;
@@ -98,9 +99,9 @@ header {
 }
 
 #header,
-#buzz {
+#buzz,
+#charity {
     width: 100%;
-    margin-top: 2rem;
 }
 
 /* -- Buzz Word Section -- */
@@ -148,6 +149,10 @@ header {
 
 /* -- Education and Employment Sections -- */
 
+#edu {
+    min-width: 600px;
+}
+
 article h3,
 article p,
 .active_dates,
@@ -165,4 +170,16 @@ article p,
 
 .description {
     padding-left: 1rem;
+}
+
+/*#edu,
+#skills {
+    width: 45%;
+}*/
+
+/* -- Skills Section -- */
+
+#skills {
+    margin-left: 2rem;
+    max-width: 350px;
 }
