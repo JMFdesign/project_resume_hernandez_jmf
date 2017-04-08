@@ -12,6 +12,10 @@
 
   * [Only allow hover jQuery event to fire once](http://stackoverflow.com/questions/5023472/jquery-hover-once)
 
+  * [Lettering jQuery Plugin](https://github.com/davatron5000/Lettering.js)
+
+  * [ToolTip jQuery Plugin](http://iamceege.github.io/tooltipster/)
+
 ## Deductions
 
   * I, *Jessica Marie Francis Arnieri Hernandez*, reviewed the list of deductions for this project and the syllabus.

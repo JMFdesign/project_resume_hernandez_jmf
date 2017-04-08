@@ -8,10 +8,14 @@ $(document).ready(function () {
     });
 });
 
-/* -- jQuery Plugin 1 -- */
+/* -- jQuery Lettering Plugin -- */
 /* -- Source:  -- */
 
+$(document).ready(function () {
 
+    $('.fancy_title').lettering();
+
+});
 
 
 /* -- jQuery Plugin 2 -- */

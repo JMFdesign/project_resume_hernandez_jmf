@@ -320,3 +320,30 @@ article p,
         max-width: 400px;
     }
 }
+
+/* -- Plugin Lettering -- */
+
+.char1,
+.char2 {
+    color: #95008c;
+}
+
+.char3,
+.char4 {
+    color: #8a0081;
+}
+
+.char5,
+.char6 {
+    color: #6a0163;
+}
+
+.char7,
+.char8 {
+    color: #4c0047;
+}
+
+.char9,
+.char10 {
+    color: #340030;
+}
