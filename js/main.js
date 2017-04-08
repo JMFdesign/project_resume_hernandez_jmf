@@ -9,7 +9,6 @@ $(document).ready(function () {
 });
 
 /* -- jQuery Lettering Plugin -- */
-/* -- Source:  -- */
 
 $(document).ready(function () {
 
@@ -18,5 +17,10 @@ $(document).ready(function () {
 });
 
 
-/* -- jQuery Plugin 2 -- */
-/* -- Source:  -- */
+/* -- jQuery ToolTip Plugin -- */
+
+$(document).ready(function () {
+
+    $('.tooltip').tooltipster();
+
+});
