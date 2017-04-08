@@ -198,6 +198,17 @@ article p,
     display: inline-block;
 }
 
+/* -- Charity Section -- */
+
+#charity_ctr {
+    width: 80%;
+    margin: auto;
+}
+
+#charity_ctr img {
+    width: 30%;
+}
+
 /* -- Employment Section -- */
 
 #emp .description p {
