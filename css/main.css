@@ -173,11 +173,6 @@ article p,
 
 /* -- Skills Section -- */
 
-#skills {
-    margin-left: 2rem;
-    max-width: 350px;
-}
-
 #skills_ctr {
     width: 100%;
     margin: auto;
