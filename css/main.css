@@ -53,6 +53,11 @@ h2 {
     font-family: 'bebas', sans-serif;
 }
 
+h2 {
+    border-bottom: 0.25rem solid #c8c7c7;
+    padding-bottom: 0.25rem;
+}
+
 h3,
 p {
     color: #585858;
