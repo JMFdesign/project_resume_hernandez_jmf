@@ -157,6 +157,7 @@ article p,
 .active_dates,
 .description {
     display: inline-block;
+    vertical-align: text-top;
 }
 
 .active_dates p {
