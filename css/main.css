@@ -255,5 +255,52 @@ article p,
     #skills {
         margin-left: 2rem;
         vertical-align: top;
+        font-size: 2rem;
+    }
+}
+
+@media (min-width: 1224px) {
+    #header,
+    #buzz {
+        width: 48%;
+        display: inline-block;
+    }
+
+    #buzz {
+        margin-left: 2rem;
+        vertical-align: top;
+    }
+
+    #header {
+        background-color: #95008c;
+    }
+
+    h1 {
+        color: #ffffff;
+    }
+
+    #contact a {
+        width: 35%;
+        display: block;
+        color: #00952a;
+        font-family: 'roboto', sans-serif;
+        text-transform: lowercase;
+        background-color: #c8c7c7;
+        padding: 0.5rem;
+        margin: 0.5rem auto;
+        max-width: 400px;
+    }
+
+    #contact a:hover {
+        width: 35%;
+        display: block;
+        color: #ffffff;
+        font-family: 'roboto', sans-serif;
+        text-transform: lowercase;
+        text-decoration: none;
+        background-color: #585858;
+        padding: 0.5rem;
+        margin: 0.5rem auto;
+        max-width: 400px;
     }
 }
