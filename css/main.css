@@ -230,7 +230,7 @@ article p,
     width: 30%;
 }
 
-/* -- Media Queries --
+/* -- Media Queries -- */
 
 @media (min-width: 320px) {
     section,
@@ -246,11 +246,14 @@ article p,
 }
 
 @media (min-width: 768px) {
-    #header,
-    #buzz,
-    #charity,
-    #emp {
-        width: 100%;
+    #edu,
+    #skills {
+        width: 48%;
+        display: inline-block;
+    }
+
+    #skills {
+        margin-left: 2rem;
+        vertical-align: top;
     }
 }
-*/
