@@ -264,15 +264,15 @@ article p,
 @media (min-width: 768px) {
     #edu,
     #skills {
-        width: 48%;
-        display: inline-block;
-    }
+        width: 45%;
+      display: inline-block;
+  }
 
-    #skills {
-        margin-left: 2rem;
-        vertical-align: top;
-        font-size: 2rem;
-    }
+  #skills {
+      margin-left: 5rem;
+      vertical-align: top;
+      font-size: 2rem;
+  }
 }
 
 @media (min-width: 1224px) {
