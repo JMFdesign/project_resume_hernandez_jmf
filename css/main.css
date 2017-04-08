@@ -157,7 +157,6 @@ article p,
 .active_dates,
 .description {
     display: inline-block;
-    vertical-align: text-top;
 }
 
 .active_dates p {
@@ -221,6 +220,14 @@ article p,
 #emp {
     padding-bottom: 10rem;
     width: 100%;
+}
+
+#admin_dates {
+    color: #00952a;
+}
+
+#admin_desc {
+    vertical-align: top;
 }
 
 /* -- Profile Pic -- */
